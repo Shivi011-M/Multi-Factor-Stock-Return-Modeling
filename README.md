@@ -1,10 +1,12 @@
 Run this file: https://colab.research.google.com/drive/18ljy1K-9ckrOP2HYVQK_8jZCtYiaioMr#scrollTo=8f00a2e6
 
+
 ---
+
 
 ## Multi-Factor Stock Return Modeling – SBI Analysis
 
----
+
 
 ## 1. Introduction
 
@@ -14,7 +16,7 @@ This study focuses on analyzing and predicting stock returns using real market d
 
 
 
----
+
 
 ## 2. Objective
 
@@ -30,7 +32,7 @@ To evaluate model performance using statistical metrics
 
 
 
----
+
 
 ## 3. Data Description
 
@@ -39,7 +41,6 @@ Historical data was collected using the Yahoo Finance API through Python. The da
 Adjusted closing prices were used to ensure consistency by accounting for dividends and corporate actions. Daily returns were calculated to standardize the data for modeling and comparison.
 
 
----
 
 
 ## 4. Methodology
@@ -61,7 +62,7 @@ To improve predictive capability, additional variables were created, including:
 These features helped capture short-term momentum and market influence on stock behavior. The dataset was then divided into training and testing sets to allow unbiased model evaluation.
 
 
----
+
 
 ## 5. Models Used
 
@@ -78,7 +79,7 @@ The Market model used simple linear regression with market returns as the primar
 The Multiple Regression model incorporated several explanatory variables, including lagged returns, trading volume, and market returns. The goal of this model was to capture multiple factors influencing stock price movement and improve prediction accuracy compared to simpler approaches.
 
 
----
+
 
 ## 6. Results and Observations
 
@@ -89,7 +90,7 @@ The Market model showed moderate improvement, suggesting that broader market tre
 The Multiple Regression model delivered the best overall performance. By incorporating multiple variables, it was able to reduce prediction errors and provide better explanatory power. This result highlights the importance of using multi-factor approaches when analyzing financial time-series data.
 
 
----
+
 
 ## 7. Key Learnings
 
@@ -103,7 +104,7 @@ This analysis provided several practical insights:
 
 
 
----
+
 
 ## 8. Tools and Technologies
 
@@ -116,7 +117,7 @@ The project was implemented using the following tools:
 * yfinance API for data extraction
 
 
----
+
 
 
 ## 9. Conclusion
@@ -129,7 +130,7 @@ At the same time, the findings highlight the inherent uncertainty of financial t
 
 
 
----
+
 
 ## 10. Future Scope
 
